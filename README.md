@@ -1,11 +1,6 @@
-# CSCI 32 #
+# CSCI 32 - Exercise 6 #
 
-### Project 3 ###
+### Instructions ###
 
-Use the instructions on CANVAS to complete this lab.
+* This exercise will be a instructor led exercise.
 
-### To Submit ###
-
-1. Add your changes/new files (`git add .`)
-2. Commit your changes (`git commit -m'YOUR COMMIT MESSAGE'`)
-3. Push your changes to GitHub (`git push origin project_3`)
