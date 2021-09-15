@@ -7,6 +7,6 @@ http.createServer((request, response) => {
     response.write('Hello World!, this is CSCI 32!');
     response.end();
     console.log('Request Ended');
-}).listenprocess.env.PORT();
+}).listen(process.env.PORT);
 
 console.log('Server has started!');
