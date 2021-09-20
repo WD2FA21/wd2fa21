@@ -15,20 +15,24 @@ Application Stack?
 */
 
 
+const exec = require('child_process').exec;
 
-console.log('Hello');
-
-pauseComputer(100, 'Long Thing Done!', str => console.log(str));
-
-console.log('Goodbye');
-
-
-// A simple function to sleep our program. To help simulate code that takes
-// a long time to run
-function pauseComputer(ms, words, callback)
-{
-    setTimeout(callback, ms, words);
+function f() {
+    console.log('Handling Start Request');
+    
+    let content = 'Empty';
+    
+    exec('ls -lah', (error, stdout, stderr) => {
+       content = stdout;
+       console.log(content);
+    });
+    
+    return content;
 }
+
+console.log('before f()');
+console.log(f());
+console.log('after f()');
 
 
 

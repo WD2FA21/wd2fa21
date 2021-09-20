@@ -1,4 +1,4 @@
-# CSCI 32 - Labs 7 & 8 #
+# CSCI 32 - Lab 9 #
 
 ### Instructions ###
 
