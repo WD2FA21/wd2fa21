@@ -1,0 +1,22 @@
+{
+  "name": "environment",
+  "version": "1.0.0",
+  "description": "### What is this repository for? ###",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WD2FA21/wd2fa21-sathrumstudent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WD2FA21/wd2fa21-sathrumstudent/issues"
+  },
+  "homepage": "https://github.com/WD2FA21/wd2fa21-sathrumstudent#readme",
+  "dependencies": {
+    "gm": "^1.23.1"
+  }
+}
